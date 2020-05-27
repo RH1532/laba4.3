@@ -1,6 +1,6 @@
 #pragma once
-#include<iostream>
-#include<fstream>
+#include "iostream"
+#include "fstream"
 void InputDataFromFile(List<string>* data, ifstream& file) //entering from a file
 {
 	while (!file.eof()) {
