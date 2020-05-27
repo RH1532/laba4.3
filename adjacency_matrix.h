@@ -1,8 +1,9 @@
 #pragma once
 #include"List.h"
 #include"Map.h"
-#include<string>
-#include<iostream>
+#include"string"
+#include"iostream"
+
 class Matrix {
 public:
 	Matrix(List<string>* data) {
