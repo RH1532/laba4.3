@@ -1,10 +1,12 @@
-﻿#include "iostream"
+#include "iostream"
 #include "Map.h"
 #include "fstream"
 #include "string"
 #include "adjacency_matrix.h"
 #include "Used_function.h"
+
 using namespace std;
+
 int main() {
 	ifstream input("input.txt");
 	List<string>* list_fly = new List<string>();
